@@ -1,0 +1,5 @@
+build:
+  image:  1science/sbt:0.13.8-oracle-jre-8
+  commands:
+    - sbt test
+    - sbt dist
